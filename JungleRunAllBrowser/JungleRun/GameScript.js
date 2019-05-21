@@ -598,7 +598,7 @@ function playClicked(e){
 function saveScore(scoreUp){
 //méthode update score depuis le jeu quand party fini
     var pseudo = window.sessionStorage.getItem("pseudo");
-    document.getElementById('loose').innerHTML = ('Salut ' + pseudo + " tu as un score de : " + scoreUp);
+    document.getElementById('loose').innerHTML = ('Dommage ' + pseudo + " ! Tu as perdu avec un score de : " + scoreUp);
     /*
     listPlayer.push(new Score(pseudo, scoreUp));
     
