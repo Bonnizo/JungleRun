@@ -1,0 +1,42 @@
+
+/* all sections are off by default */
+body > section {
+
+  display:none;
+
+
+
+}
+
+
+body.page1 > section#page1,
+body.page2  > section#page2,
+body.page3  > section#page3,
+body.page4  > section#page4
+{
+    display: block;
+
+
+    margin: auto;
+
+    width: 50%;
+   min-width: 600px;
+    max-width: 600px;
+
+   min-height: 400px;
+    max-height: 400px;
+
+
+    background : url("Images/Play/background.png") no-repeat center ;
+    background-size: 140%;
+}
+
+
+
+body.page1  a[href="#Menu"],
+body.page2  a[href="#page2"],
+body.page3 a[href="#page3"],
+body.page4  a[href="#page4"] { background-color: #555; }
+
+
+

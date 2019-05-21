@@ -1,0 +1,150 @@
+html {
+    background: url("Images/Home/bgMenu.png") no-repeat center center fixed;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+     font-family: Verdana;
+}
+
+
+
+
+
+.menu{
+    background-color: whitesmoke;
+    width : 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+
+
+    border: solid 4px;
+   border-color: darkorange;
+}
+
+section{
+     border: solid 4px;
+    border-color: darkorange;
+     background-color: whitesmoke;
+
+}
+
+#page1{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+
+}
+
+#page3{
+    text-align: center;
+    vertical-align: middle;
+
+
+
+}
+
+
+
+
+
+#page4{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+
+}
+
+
+
+#classement{
+
+    background-color: whitesmoke;
+    text-align: left;
+    max-width: 50%;
+    margin: auto;
+   margin-top: 50px;
+
+
+    padding: 5px;
+    border: solid 4px;
+    border-color: darkorange;
+
+}
+
+#top5{
+
+    max-width: 50%;
+    margin: auto;
+  text-align: center;
+}
+
+#ranking {
+    font-size: 15x;
+
+}
+
+
+button {
+    background-color: darkorange;
+    color: white;
+    min-width: 100px;
+    height: 25px;
+    font-size: 20px;
+
+
+}
+
+.dropZone{
+
+    text-align: center;
+    vertical-align:middle;
+   width: 50%;
+
+    margin: auto;
+
+     border: solid 2px;
+    color: white;
+    background-color: grey;
+    margin-bottom: 10px;
+}
+
+#avis{
+
+    display: none;
+     background-color: whitesmoke;
+    text-align: center;
+    width : 25%;
+    margin: auto;
+   margin-top: 50px;
+
+
+    border: solid 4px;
+    border-color: darkorange;
+}
+
+
+.startDrag{
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    margin-bottom: 10px;
+   border: solid 4px;
+    color : white;
+
+}
+
+#Oui {
+
+    background-color: green;
+}
+#Non {
+
+    background-color: red;
+}
+
+footer{
+    text-align: center;
+}
